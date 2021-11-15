@@ -54,6 +54,36 @@ default:
     break
 }
 
+// Functions & Parameters
+
+func printMsg(){
+    print("Function 01")
+}
+
+printMsg()
+
+func friendName(name: String){
+    print("Hi \(name)")
+}
+
+friendName(name: "Juan")
+friendName(name: "Andrea")
+
+func moviePremier(movie:String, year:Int){
+    print("The movie \(movie) was released in \(year)")
+}
+
+moviePremier(movie: "Harry Potter", year: 2001)
+moviePremier(movie: "Toy Story", year: 1995)
+
+func add(num1: Int, num2: Int) -> Int {
+    let result = num1 + num2
+    return result
+}
+
+print("The result is \(add(num1: 2, num2: 3))")
+
+
 
 
 
