@@ -25,8 +25,34 @@ let temp: Float = 21.8    // 6 decimals
 let other: Double = 22.4  // 15 decimals
 
 // Boolean
-let isHot: Bool = true
+let isHot: Bool = false
 let isFine:Bool = false
+
+// Conditionals & Switch
+
+if (isHot){
+    print("It is hot..")
+}else{
+    print("It is fresh")
+}
+
+if (temp > 30){
+    print("It is hotter..")
+}
+
+let value: Int = 2
+
+switch value {
+case 2:
+    print("It is 2")
+    break
+case 3:
+    print("It is 3")
+    break
+default:
+    print("It is default")
+    break
+}
 
 
 
