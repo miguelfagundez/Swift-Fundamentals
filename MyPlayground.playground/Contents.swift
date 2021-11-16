@@ -83,6 +83,26 @@ func add(num1: Int, num2: Int) -> Int {
 
 print("The result is \(add(num1: 2, num2: 3))")
 
+// Enums
+
+enum Data{
+    case married
+    case single
+    case other
+}
+
+let data: Data = .single
+
+if data == .single{
+    print("He/She is single")
+}else{
+    if data == .married{
+        print("She/He is married")
+    }else{
+        print("She/He has other option")
+    }
+}
+
 
 
 
